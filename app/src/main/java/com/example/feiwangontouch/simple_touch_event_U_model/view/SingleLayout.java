@@ -5,7 +5,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
-
 public class SingleLayout extends RelativeLayout {
     private final String TAG = "SingleLayout";
 

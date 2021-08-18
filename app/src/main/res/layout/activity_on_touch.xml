@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".OnTouchActivity">
+    android:layout_height="match_parent">
 
 
     <com.example.feiwangontouch.simple_touch_event_U_model.view.SingleLayout
@@ -15,20 +14,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.example.feiwangontouch.view.SingleLayout
+        <com.example.feiwangontouch.simple_touch_event_U_model.view.SingleLayout
             android:id="@+id/baohantwolayout"
             android:layout_width="200dp"
             android:layout_height="300dp"
             android:background="@android:color/darker_gray">
 
-            <com.example.feiwangontouch.view.SingleView
+            <com.example.feiwangontouch.simple_touch_event_U_model.view.SingleView
                 android:id="@+id/baohantwolayout_in_view"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@android:color/white" />
-        </com.example.feiwangontouch.view.SingleLayout>
+        </com.example.feiwangontouch.simple_touch_event_U_model.view.SingleLayout>
 
-        <com.example.feiwangontouch.view.SingleView
+        <com.example.feiwangontouch.simple_touch_event_U_model.view.SingleView
             android:id="@+id/baohantwolayout_below_view"
             android:layout_width="100dp"
             android:layout_height="100dp"
